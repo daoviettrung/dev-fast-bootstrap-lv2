@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2 header-element mt-3">
+                    <i class="fa fa-search fa-lg"></i>
+                </div>
+                <div class="col-md-8 header-element">
+                    <img class="header-element" src="image/2f5e27b.png">
+                </div>
+                <div class="col-md-2 header-element mt-3">
+                    <img class="icon-mobile__appstore" src="image/app_store.png">
+                    <img class="icon-mobile__appstore" src="image/google_play.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="body">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2 menu">
+                    <div class="nav-menu">
+                        <div class="sidenav">
+                            <a class="text-light ml-4 mt-3">トツプ</a>
+                            <a class="text-light ml-4 mt-3">平和・安全</a>
+                            <a class="text-light ml-4 mt-3">農業・漁業</a>
+                            <a class="text-light ml-4 mt-3">交通・インフラ</a>
+                            <a class="text-light ml-4 mt-3">環境・文化</a>
+                            <a class="text-light ml-4 mt-3">政治</a>
+                            <a class="text-light ml-4 mt-3">ジェンダー・人権</a>
+                            <a class="text-light ml-4 mt-3">経済・民間連携</a>
+                            <a class="text-light ml-4 mt-3">IT</a>
+                            <a class="text-light ml-4 mt-3">教育</a>
+                            <a class="text-light ml-4 mt-3">保健医療</a>
+                            <a class="text-light ml-4 mt-3">INTERNATIONAL</a>
+                            <a class="text-light ml-4 mt-3"> コラム</a>
+                            <a class="text-light ml-4 mt-3">オリジナル</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- div content -->
+                <div class="col-md-10 mt-5 news ">
+                    <!-- slide  -->
+                    <div style="margin-top: 120px;" class="slideshow-container ml-5">
+                        <div class="mySlides fade">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <img src="image/new1.jpg" style="width: 950px; height: 500px;">
+                                </div>
+                                <!-- new related -->
+                                <div class="new-related col-md-4 mt-1">
+                                    <img src="image/new_related1.jpg" style="width: 410px">
+                                    <img class="mt-5" src="image/new_related2.jpg" style="width: 410px">
+                                </div>
+                            </div>
+                        </div>
+                        <div style="text-align:right">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                        </div>
+                    </div>
+                    <!-- content -->
+                    <div class="content">
+                        <!-- hot new -->
+                        <div class="row">
+                            <!-- new hot -->
+                            <div class="col-md-8 hot-new">
+                                <div class="top-new-text">
+                                    <h2>トップニュース</h2>
+                                </div>
+                                <!-- chia card new -->
+                                <div class="row">
+                                    <div style="margin-left: 60px;" class="card">
+                                        <img src="image/top-new1.jpg" alt="Avatar">
+                                        <div class="container">
+                                            <h5><b>
+                                                    マリフアナ合法化と反政府デモの支持訴え集会 コロンビア
+                                                </b></h5>
+                                            <p>
+                                                【5月9日 AFP】南米コロンビア・メデジン（Medellin）で8日、マリフアナ合法化を求める集会...
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card ml-5">
+                                        <img src="image/top-new3.jpg" alt="Avatar" style="width:100%">
+                                        <div class="container">
+                                            <h5><b>
+
+                                                    インドのコロナ死者数、2日連続4000人超　全土封鎖求める声
+
+                                                </b></h5>
+                                            <p>
+
+                                                インド保健省が９日、過去２４時間に確認された新型コロナウイルス感染症による新たな死者は４０９２人だっ...
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card ml-5">
+                                        <img src="image/top-new2.jpg" alt="Avatar">
+                                        <div class="container">
+                                            <h5><b>
+                                                    マリフアナ合法化と反政府デモの支持訴え集会 コロンビア
+                                                </b></h5>
+                                            <p>
+                                                【5月9日 AFP】南米コロンビア・メデジン（Medellin）で8日、マリフアナ合法化を求める集会...
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- card new line 2 -->
+                                <div class="top-new-text">
+                                    <h2> 政治
+                                    </h2>
+                                </div>
+                                <!-- chia card new -->
+                                <div class="row">
+                                    <div style="margin-left: 60px;" class="card">
+                                        <img src="image/new-rank4.png" alt="Avatar">
+                                        <div class="container">
+                                            <h5><b>
+                                                    マリフアナ合法化と反政府デモの支持訴え集会 コロンビア
+                                                </b></h5>
+                                            <p>
+                                                【5月9日 AFP】南米コロンビア・メデジン（Medellin）で8日、マリフアナ合法化を求める集会...
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card ml-5">
+                                        <img src="image/top-new3.jpg" alt="Avatar" style="width:100%">
+                                        <div class="container">
+                                            <h5><b>
+
+                                                    インドのコロナ死者数、2日連続4000人超　全土封鎖求める声
+
+                                                </b></h5>
+                                            <p>
+
+                                                インド保健省が９日、過去２４時間に確認された新型コロナウイルス感染症による新たな死者は４０９２人だっ...
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card ml-5">
+                                        <img src="image/top-new2.jpg" alt="Avatar">
+                                        <div class="container">
+                                            <h5><b>
+                                                    マリフアナ合法化と反政府デモの支持訴え集会 コロンビア
+                                                </b></h5>
+                                            <p>
+                                                【5月9日 AFP】南米コロンビア・メデジン（Medellin）で8日、マリフアナ合法化を求める集会...
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end chia card -->
+                            </div>
+                            <!-- new rank -->
+                            <div class=" col-md-4 ">
+                                <div style="margin-left:70px ;" class="top-new-text">
+                                    <h3>ランキング</h3>
+                                </div>
+                                <div style="margin-left: 60px;" class="card">
+                                    <div class="mt-5" style="text-align: center;">
+                                        <img style="width: 82%;" src="image/new-rank1.jpg">
+                                        <img class="mt-4" style="width: 82%;" src="image/new-rank-2.jpg">
+                                        <img class="mt-4" style="width: 82%;" src="image/new-rank3.jpg">
+                                        <img class="mt-4" style="width: 82%;" src="image/new-rank4.png">
+                                        <img class="mt-4" style="width: 82%;" src="image/new-rank5.jpg">
+                                        <img class="mt-4" style="width: 82%;" src="image/new-rank6.jpg">
+                                        <img class="mt-4" style="width: 82%;" src="image/new-rank7.jpg">
+                                        <img class="mt-4" style="width: 82%;" src="image/new-rank8.jpg">
+                                        <img class="mt-4" style="width: 82%;" src="image/new-rank9.jpg">
+                                        <img class="mt-4" style="width: 82%;" src="image/new-rank10.jpg">
+                                    </div>
+
+                                </div>
+                                <!-- end new rank -->
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <script>
+                var slideIndex = 1;
+                showSlides(slideIndex);
+
+                function plusSlides(n) {
+                    showSlides(slideIndex += n);
+                }
+
+                function currentSlide(n) {
+                    showSlides(slideIndex = n);
+                }
+
+                function showSlides(n) {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("dot");
+                    if (n > slides.length) { slideIndex = 1 }
+                    if (n < 1) { slideIndex = slides.length }
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex - 1].style.display = "block";
+                    dots[slideIndex - 1].className += " active";
+                }
+            </script>
+</body>
