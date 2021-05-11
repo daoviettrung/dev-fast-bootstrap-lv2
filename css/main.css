@@ -167,6 +167,7 @@ img {vertical-align: middle;}
 }
 
 .card {
+  position: relative;
   width: 300px;
 }
 
@@ -182,3 +183,56 @@ img {vertical-align: middle;}
   color: #fff;
   background-color: #0fb3f3;
   border-color: #0fb3f3;}
+
+  .height-img{
+    height: 200px;
+  }
+
+
+  /* log detail */
+  .inline-site-logo {
+    background: #c4c4c4;
+    display: inline-block;
+    vertical-align: sub;
+    height: 17px;
+}
+.text-center.mb-1 img[data-v-cdb3c954] {
+  min-height: 1.5rem;
+}
+.card-detail{
+  width: 150px;
+}
+
+
+/* view icon */
+.banner-view-tag {
+  position: absolute;
+  background-color: #0fb3f3;
+  color: #fff;
+  padding: 6px 10px;
+  top: 180px;
+  right: -10px;
+}
+.banner-view-tag::after {
+  border-right: 10px solid transparent;
+  border-top: 7px solid rgba(0, 0, 0, 0.5);
+  bottom: -7px;
+  right: 0;
+  content: "";
+  position: absolute;
+}
+
+
+/* new icon */
+.tag-new {
+  margin-bottom: 0;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size: 12px;
+  background-color: #ffae01;
+  color: #fff;
+  letter-spacing: 0.1em;
+  border-radius: 10px;
+  padding: 1.4px 4px 0.5px 6px !important;
+}
