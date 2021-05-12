@@ -57,7 +57,7 @@
   /* slide dot */
   * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
-.mySlides {display: none}
+.mySlides {display: active}
 img {vertical-align: middle;}
 
 /* Slideshow container */
@@ -129,8 +129,6 @@ img {vertical-align: middle;}
 .active, .dot:hover {
   background-color: #717171;
 }
-
-/* Fading animation */
 
 
 @-webkit-keyframes fade {
