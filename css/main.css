@@ -22,8 +22,12 @@
     margin-top: 4px !important;
     text-align: center;
 }
+/* end header */
 
 /*menu*/
+.menu{
+  background-color: #252b2f;
+}
 .sidenav {
     height: 100%;
     width: 300px;
@@ -65,6 +69,7 @@ img {vertical-align: middle;}
   max-width: 2000px;
   position: relative;
   margin-left: 76px;
+  margin-top: 120px;
 }
 
 /* Next & previous buttons */
@@ -115,19 +120,23 @@ img {vertical-align: middle;}
 }
 
 /* The dots/bullets/indicators */
+.dot-slide{
+  text-align:right;
+  margin-right: 70px;
+}
 .dot {
   cursor: pointer;
-  height: 15px;
-  width: 15px;
+  height: 13px;
+  width: 13px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: white;
   border-radius: 50%;
   display: inline-block;
-  transition: background-color 0.6s ease;
+  transition: background-color 0.8s ease;
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #5a4183;
 }
 
 
@@ -145,6 +154,11 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+
+#slide-one div {
+  margin-top:-180px;margin-right: 64px;
+}
+
 
 
 /* content */
@@ -249,8 +263,12 @@ img {vertical-align: middle;}
 }
 .footer a{
   color: #111;
+  text-decoration: underline;
+  text-decoration-color: black;
+  text-underline-position: under;
+
 }
 .footer p{
   text-align: center;
-  margin-top: 10px;
+  padding-top: 2em;
 }

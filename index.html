@@ -33,7 +33,7 @@
     <div class="body">
         <div class="container-fluid">
             <div class="row">
-                <div style="background-color: #252b2f" class="col-md-2 menu">
+                <div class="col-md-2 menu">
                     <div class="sidenav">
                         <a href="http://127.0.0.1:5500/" class="text-light ml-4 mt-3">トツプ</a>
                         <a class="text-light ml-4 mt-3">平和・安全</a>
@@ -54,15 +54,15 @@
                 <!-- div content -->
                 <div id="content" class="col-10 mt-5 news ">
                     <!-- slide  -->
-                    <div style="margin-top: 120px;" class="slideshow-container">
+                    <div class="slideshow-container">
                         <div class="mySlides">
                             <div class="row">
-                                <div class="col-md-8">
-                                    <div style="margin-top:-180px;margin-right: 64px;" class="d-flex banner-view-tag">
+                                <div id = "slide-one" class="col-md-8">
+                                    <div class="d-flex banner-view-tag">
                                         <img src="image/eys.svg" alt="" width="20">
                                         <p class="mb-0">0</p>
                                     </div>
-                                    <img src="image/new1.jpg" style="width: 950px; height: 500px;">
+                                    <img  src="image/new1.jpg" style="width: 950px; height: 500px;">
                                 </div>
                                 <!-- new related -->
                                 <div class="new-related col-md-4 mt-1">
@@ -79,19 +79,31 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="mySlides fade">
+                        <div class="mySlides ">
                             <div class="row">
                                 <div class="col-md-8">
-                                    <img src="image/new1.jpg" style="width: 950px; height: 500px;">
+                                    <div style="margin-top: -180px; margin-right: 64px;" class="d-flex banner-view-tag">
+                                        <img src="image/eys.svg" alt="" width="20">
+                                        <p class="mb-0">0</p>
+                                    </div>
+                                    <img src="image/new-line-10.jpg" style="width: 950px; height: 500px;">
                                 </div>
                                 <!-- new related -->
                                 <div class="new-related col-md-4 mt-1">
-                                    <img src="image/new_related1.jpg" style="width: 410px">
-                                    <img class="mt-5" src="image/new_related2.jpg" style="width: 410px">
+                                    <div style="margin-top:-180px;margin-right: 87px;" class="d-flex banner-view-tag">
+                                        <img src="image/eys.svg" alt="" width="20">
+                                        <p class="mb-0">0</p>
+                                    </div>
+                                    <img src="image/new-line-11.png" style="width: 410px">
+                                    <div style="margin-top:90px;margin-right: 87px;" class="d-flex banner-view-tag">
+                                        <img src="image/eys.svg" alt="" width="20">
+                                        <p class="mb-0">0</p>
+                                    </div>
+                                    <img class="mt-5" src="image/new-line-12.jpg" style="width: 410px">
                                 </div>
                             </div>
                         </div>
-                        <div style="text-align:right">
+                        <div class="dot-slide mt-2" >
                             <span class="dot" onclick="currentSlide(1)"></span>
                             <span class="dot" onclick="currentSlide(2)"></span>
                         </div>
@@ -1176,7 +1188,7 @@
                     </div>
                     <div class="footer col-md-12 bg-white">
 
-                        <p>COPYRIGHT©2020 GLOCAL ALL RIGHT
+                        <p  class="mt-5">COPYRIGHT©2020 GLOCAL ALL RIGHT
                             RESERVED</p>
                         <a href="#" class="mt-5">プライバシーポリシー</a>
                     </div>
