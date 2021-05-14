@@ -64,6 +64,10 @@ body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: active}
 img {vertical-align: middle;}
 
+.title-slide{
+  /* margin-top: 1px !important; */
+}
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 2000px;
@@ -166,8 +170,8 @@ img {vertical-align: middle;}
   background-color: #edeff0;
 }
 .top-new-text {
-  margin-top: 80px;
-  margin-left: 46px;
+  margin-top: 60px;
+  margin-left: 42px;
   text-decoration: underline;
   text-decoration-color: #e1493e;
   text-underline-position: under;
@@ -176,6 +180,7 @@ img {vertical-align: middle;}
 .card {
   position: relative;
   width: 300px;
+  height: 370px;
 }
 
 
