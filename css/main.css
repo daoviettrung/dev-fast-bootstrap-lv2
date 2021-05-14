@@ -64,9 +64,16 @@ body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: active}
 img {vertical-align: middle;}
 
-.title-slide{
-  /* margin-top: 1px !important; */
+#slide-one div.title-slide{
+  margin-top: 470px;position: absolute; font-weight: bold;
 }
+
+/* #slide-one.img-slide-one{
+  width: 950px; height: 500px;
+} */
+/* #slide-one-related-one{
+  margin-top:-180px;margin-right: 87px;
+} */
 
 /* Slideshow container */
 .slideshow-container {
@@ -171,7 +178,7 @@ img {vertical-align: middle;}
 }
 .top-new-text {
   margin-top: 60px;
-  margin-left: 42px;
+  margin-left: 44px;
   text-decoration: underline;
   text-decoration-color: #e1493e;
   text-underline-position: under;
